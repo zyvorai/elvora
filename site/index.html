@@ -23,7 +23,7 @@
   <script src="theme.js"></script>
   <link rel="stylesheet" href="site.css" />
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Elvora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS (Apple silicon)","description":"A Go control plane that turns Mac mini and Mac Studio fleets into schedulable infrastructure.","license":"https://www.apache.org/licenses/LICENSE-2.0","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Elvora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS (Apple silicon)","description":"A Go control plane that turns Mac mini and Mac Studio fleets into schedulable infrastructure.","isAccessibleForFree":false,"offers":{"@type":"Offer","name":"Elvora","price":"49","priceCurrency":"USD","description":"$49 per enrolled Mac per year. Commercial licence required. India: exclusive of GST. Buy via sales@zyvor.dev."}}
   </script>
 </head>
 <body>
@@ -32,7 +32,7 @@
 <header class="bar">
   <a class="brand" href="./" aria-label="Elvora home"><img class="logo" src="favicon.svg" alt="" width="32" height="32" /><b>ELVORA</b><small class="by"><svg class="zmark" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2h14L6.6 16H16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>by Zyvor</small></a>
   <nav aria-label="Sections" id="sections">
-    <a href="#download">Download</a><a href="#gallery">See it</a><a href="#fleet">Fleet</a><a href="#scheduling">Scheduling</a><a href="#execution">Execution</a><a href="#security">Security</a><a href="#architecture">Architecture</a><a href="#quickstart">Quick start</a><a href="#support">Support</a>
+    <a href="#download">Download</a><a href="#gallery">See it</a><a href="#fleet">Fleet</a><a href="#scheduling">Scheduling</a><a href="#execution">Execution</a><a href="#security">Security</a><a href="#architecture">Architecture</a><a href="#quickstart">Quick start</a><a href="#pricing">Pricing</a>
   </nav>
   <div class="bar-actions">
     <button id="theme" class="icon" type="button" aria-label="Switch to dark mode" aria-pressed="false">
@@ -50,7 +50,7 @@
     <h1>The Apple <em>Infrastructure Cloud.</em></h1>
     <p class="lede">Elvora turns fleets of <strong>Mac mini</strong> and <strong>Mac Studio</strong> systems into schedulable infrastructure for <strong>Xcode CI</strong>, native <strong>Apple Silicon AI</strong>, dedicated developer machines and <strong>macOS VM</strong> orchestration. A fleet should feel like infrastructure, not a spreadsheet of hostnames.</p>
     <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz">Download 0.4.1 (CLI)</a><a class="btn" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg">.dmg</a><a class="link" href="#gallery">See the console</a></p>
-    <p class="fine">Notarized · Apple silicon · Apache-2.0</p>
+    <p class="fine">Notarized · Apple silicon · $49 / Mac / year</p>
     <ul class="chips" aria-label="Highlights"><li class="ro">Apple silicon</li><li>Whole-Mac scheduler</li><li>Xcode CI</li><li>MLX</li><li>macOS VMs</li><li>Signed assignments</li><li>Go, stdlib only</li></ul>
     <img class="hero-img" src="social/elvora-hero-dark.jpg" width="2400" height="1260" alt="Elvora: The Apple Infrastructure Cloud, with the web console showing a Mac fleet overview" />
   </section>
@@ -160,15 +160,15 @@ elvora-server --listen :8080 --state /var/lib/elvora/state.json</code></pre></di
 <pre><code>elvora-agent --server https://elvora.example.internal \
   --labels site=pune,pool=ios-ci,tier=m4-pro</code></pre></div>
   </section>
-  <section id="support">
-    <h2>Support the project</h2>
-    <p class="sub">Free under Apache-2.0. If it helps you, you can donate any amount you like. A donation is voluntary and supports development and maintenance. It is not a purchase: it buys no support, SLA, features, priority or license, and it is not tax-deductible (Zyvor AI Labs Private Limited is a company, not a charity). Support contracts are separate: <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>.</p>
-    <p class="cta" style="justify-content:flex-start"><a class="btn primary" href="https://rzp.io/rzp/utwdYh3">Donate any amount</a></p>
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <p class="sub">Elvora is not free to use. <strong>$49 per enrolled Mac per year</strong> (about ₹4,150 excl. GST in India). One licence covers one Mac in your fleet for twelve months. Invoice via <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>. Plain-language terms on <a href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">LICENSING.md</a>.</p>
+    <p class="cta" style="justify-content:flex-start"><a class="btn primary" href="mailto:sales@zyvor.dev?subject=Elvora%20licence">Buy a licence</a><a class="btn" href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">Licensing details</a></p>
   </section>
 </main>
 
 <footer>
-  <p><svg class="zmark" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2h14L6.6 16H16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> <b>Elvora</b> · Crafted by Zyvor AI Labs · Apache-2.0 · <a href="https://github.com/zyvorai/elvora">GitHub</a> · <a href="https://github.com/zyvorai/elvora/releases">Releases</a> · <a href="#support">Support</a></p>
+  <p><svg class="zmark" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2h14L6.6 16H16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> <b>Elvora</b> · Crafted by Zyvor AI Labs · $49 / Mac / year · <a href="https://github.com/zyvorai/elvora">GitHub</a> · <a href="https://github.com/zyvorai/elvora/releases">Releases</a> · <a href="#pricing">Pricing</a></p>
 </footer>
 <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 <script src="site.js"></script>

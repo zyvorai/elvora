@@ -11,7 +11,7 @@
 [![Download CLI](https://img.shields.io/badge/download-darwin%20CLI-30d158?logo=apple&logoColor=white)](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz)
 [![Website](https://img.shields.io/badge/website-zyvorai.github.io%2Felvora-8e7cff)](https://zyvorai.github.io/elvora/)
 [![Platform](https://img.shields.io/badge/Apple%20silicon%20%C2%B7%20macOS-000000?logo=apple&logoColor=white)](docs/INSTALL.md)
-[![License](https://img.shields.io/badge/license-Apache--2.0-0071e3)](LICENSE)
+[![License](https://img.shields.io/badge/licence-commercial-0071e3)](LICENSING.md)
 
 ![Elvora: the Apple Infrastructure Cloud](docs/social/elvora-hero-dark.jpg)
 
@@ -62,6 +62,8 @@ This repository holds the **website, documentation and downloadable builds** (se
 
 v0.4 developer preview: production-shaped control plane and agent, **not** yet a hardened multi-tenant security boundary. Read [SECURITY.md](SECURITY.md) before deploying outside a trusted environment.
 
-## License
+## Pricing and licence
 
-Apache License 2.0. See [LICENSE](LICENSE).
+Elvora is **not free to use**. **$49 per enrolled Mac per year** (about ₹4,150 excl. GST in India). Buy via [sales@zyvor.dev](mailto:sales@zyvor.dev). Plain-language terms: [LICENSING.md](LICENSING.md).
+
+The website and documentation are Copyright 2026 Zyvor AI Labs ([LICENSE](LICENSE)).
