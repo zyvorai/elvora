@@ -34,15 +34,16 @@ This repository holds the **website, documentation and downloadable builds** (se
 
 ## Get started
 
-1. Download [`elvora-darwin-arm64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz) and install with:
+1. Install with Homebrew (Apple silicon):
 
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/zyvorai/elvora/v0.4.1/scripts/install.sh | ELVORA_VERSION=v0.4.1 sh
+   brew install zyvorai/tap/elvora          # agent, CLI, FluxVM runner
+   brew install --cask zyvorai/tap/elvora   # menu-bar app
    ```
 
-   Or unpack the tarball into `/usr/local/bin` (agent + CLI) and `/usr/local/libexec` (FluxVM runner).
-2. Optionally download [`Elvora-0.4.1.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg) and drag the menu-bar app to Applications.
-3. Start a control plane (Linux or Mac), enroll Macs, submit workloads. See [INSTALL.md](docs/INSTALL.md).
+   Or download [`elvora-darwin-arm64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz) / the [`.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg). See [INSTALL.md](docs/INSTALL.md).
+2. Buy a licence on [Cashfree](https://payments.cashfree.com/forms/zyvor-elvora) ($49 / enrolled Mac / year; India + international cards).
+3. Start a control plane, enroll Macs, submit workloads.
 
 ## New in 0.4
 
@@ -64,6 +65,6 @@ v0.4 developer preview: production-shaped control plane and agent, **not** yet a
 
 ## Pricing and licence
 
-Elvora is **not free to use**. **$49 per enrolled Mac per year** (about ₹4,150 excl. GST in India). Buy via [sales@zyvor.dev](mailto:sales@zyvor.dev). Plain-language terms: [LICENSING.md](LICENSING.md).
+Elvora is **not free to use**. **$49 per enrolled Mac per year** (about ₹4,150 excl. GST in India). Buy on [Cashfree](https://payments.cashfree.com/forms/zyvor-elvora) (India + international cards) or [sales@zyvor.dev](mailto:sales@zyvor.dev). Plain-language terms: [LICENSING.md](LICENSING.md).
 
 The website and documentation are Copyright 2026 Zyvor AI Labs ([LICENSE](LICENSE)).

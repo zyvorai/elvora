@@ -23,7 +23,7 @@
   <script src="theme.js"></script>
   <link rel="stylesheet" href="site.css" />
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Elvora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS (Apple silicon)","description":"A Go control plane that turns Mac mini and Mac Studio fleets into schedulable infrastructure.","isAccessibleForFree":false,"offers":{"@type":"Offer","name":"Elvora","price":"49","priceCurrency":"USD","description":"$49 per enrolled Mac per year. Commercial licence required. India: exclusive of GST. Buy via sales@zyvor.dev."}}
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Elvora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS (Apple silicon)","description":"A Go control plane that turns Mac mini and Mac Studio fleets into schedulable infrastructure.","isAccessibleForFree":false,"offers":{"@type":"Offer","name":"Elvora","price":"49","priceCurrency":"USD","description":"$49 per enrolled Mac per year. Commercial licence required. Buy via Cashfree (India + international cards): payments.cashfree.com/forms/zyvor-elvora."}}
   </script>
 </head>
 <body>
@@ -49,8 +49,8 @@
     <p class="kicker">Zyvor · Apple fleet control plane</p>
     <h1>The Apple <em>Infrastructure Cloud.</em></h1>
     <p class="lede">Elvora turns fleets of <strong>Mac mini</strong> and <strong>Mac Studio</strong> systems into schedulable infrastructure for <strong>Xcode CI</strong>, native <strong>Apple Silicon AI</strong>, dedicated developer machines and <strong>macOS VM</strong> orchestration. A fleet should feel like infrastructure, not a spreadsheet of hostnames.</p>
-    <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz">Download 0.4.1 (CLI)</a><a class="btn" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg">.dmg</a><a class="link" href="#gallery">See the console</a></p>
-    <p class="fine">Notarized · Apple silicon · $49 / Mac / year</p>
+    <p class="cta"><a class="btn primary" href="#download">Install with Homebrew</a><a class="btn" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz">CLI tarball</a><a class="btn" href="https://payments.cashfree.com/forms/zyvor-elvora">Buy · $49/yr</a><a class="link" href="#gallery">See the console</a></p>
+    <p class="fine">Notarized · Apple silicon · Homebrew · $49 / Mac / year</p>
     <ul class="chips" aria-label="Highlights"><li class="ro">Apple silicon</li><li>Whole-Mac scheduler</li><li>Xcode CI</li><li>MLX</li><li>macOS VMs</li><li>Signed assignments</li><li>Go, stdlib only</li></ul>
     <img class="hero-img" src="social/elvora-hero-dark.jpg" width="2400" height="1260" alt="Elvora: The Apple Infrastructure Cloud, with the web console showing a Mac fleet overview" />
   </section>
@@ -144,9 +144,10 @@
       <article class="card"><h3>Menu-bar app</h3><p><a href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg">Elvora-0.4.1.dmg</a>. Drag to Applications.</p>
       <p><a class="btn" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg">Download .dmg</a></p></article>
       <article class="card"><h3>Linux control plane</h3><p><a href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-linux-amd64.tar.gz">amd64</a> · <a href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-linux-arm64.tar.gz">arm64</a> tarballs with <code>elvora-server</code>.</p></article>
-      <article class="card"><h3>One-line install</h3><p class="sub">On Apple silicon:</p>
-<div class="code"><button class="copy" type="button" aria-label="Copy install">Copy</button>
-<pre><code>curl -fsSL https://raw.githubusercontent.com/zyvorai/elvora/v0.4.1/scripts/install.sh | ELVORA_VERSION=v0.4.1 sh</code></pre></div></article>
+      <article class="card"><h3>Homebrew</h3><p class="sub">Apple silicon:</p>
+<div class="code"><button class="copy" type="button" aria-label="Copy Homebrew install">Copy</button>
+<pre><code>brew install zyvorai/tap/elvora
+brew install --cask zyvorai/tap/elvora</code></pre></div></article>
     </div>
   </section>
   <section id="quickstart">
@@ -162,8 +163,8 @@ elvora-server --listen :8080 --state /var/lib/elvora/state.json</code></pre></di
   </section>
   <section id="pricing">
     <h2>Pricing</h2>
-    <p class="sub">Elvora is not free to use. <strong>$49 per enrolled Mac per year</strong> (about ₹4,150 excl. GST in India). One licence covers one Mac in your fleet for twelve months. Invoice via <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>. Plain-language terms on <a href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">LICENSING.md</a>.</p>
-    <p class="cta" style="justify-content:flex-start"><a class="btn primary" href="mailto:sales@zyvor.dev?subject=Elvora%20licence">Buy a licence</a><a class="btn" href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">Licensing details</a></p>
+    <p class="sub">Elvora is not free to use. <strong>$49 per enrolled Mac per year</strong> (about ₹4,150 excl. GST in India). One licence covers one Mac in your fleet for twelve months. Pay on <a href="https://payments.cashfree.com/forms/zyvor-elvora">Cashfree</a> (India and international cards). Plain-language terms on <a href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">LICENSING.md</a>.</p>
+    <p class="cta" style="justify-content:flex-start"><a class="btn primary" href="https://payments.cashfree.com/forms/zyvor-elvora">Buy on Cashfree</a><a class="btn" href="mailto:sales@zyvor.dev?subject=Elvora%20licence">sales@zyvor.dev</a><a class="btn" href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">Licensing details</a></p>
   </section>
 </main>
 
