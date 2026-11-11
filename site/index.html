@@ -40,7 +40,8 @@
       <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
     </button>
     <a class="btn small" href="https://github.com/zyvorai/elvora">GitHub</a>
-    <a class="btn small primary" href="#download">Download</a>
+    <a class="btn small" href="#download">Install</a>
+    <a class="btn small primary" href="https://payments.cashfree.com/forms/zyvor-elvora">Buy · $49/yr</a>
   </div>
 </header>
 
@@ -49,8 +50,8 @@
     <p class="kicker">Zyvor · Apple fleet control plane</p>
     <h1>The Apple <em>Infrastructure Cloud.</em></h1>
     <p class="lede">Elvora turns fleets of <strong>Mac mini</strong> and <strong>Mac Studio</strong> systems into schedulable infrastructure for <strong>Xcode CI</strong>, native <strong>Apple Silicon AI</strong>, dedicated developer machines and <strong>macOS VM</strong> orchestration. A fleet should feel like infrastructure, not a spreadsheet of hostnames.</p>
-    <p class="cta"><a class="btn primary" href="#download">Install with Homebrew</a><a class="btn" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz">CLI tarball</a><a class="btn" href="https://payments.cashfree.com/forms/zyvor-elvora">Buy · $49/yr</a><a class="link" href="#gallery">See the console</a></p>
-    <p class="fine">Notarized · Apple silicon · Homebrew · $49 / Mac / year</p>
+    <p class="cta"><a class="btn primary" href="https://payments.cashfree.com/forms/zyvor-elvora">Buy · $49 / Mac / year</a><a class="btn" href="#download">Install</a><a class="link" href="#gallery">See the console</a></p>
+    <p class="fine">Cashfree (India + international cards) · then <code>brew install zyvorai/tap/elvora</code></p>
     <ul class="chips" aria-label="Highlights"><li class="ro">Apple silicon</li><li>Whole-Mac scheduler</li><li>Xcode CI</li><li>MLX</li><li>macOS VMs</li><li>Signed assignments</li><li>Go, stdlib only</li></ul>
     <img class="hero-img" src="social/elvora-hero-dark.jpg" width="2400" height="1260" alt="Elvora: The Apple Infrastructure Cloud, with the web console showing a Mac fleet overview" />
   </section>
@@ -163,8 +164,22 @@ elvora-server --listen :8080 --state /var/lib/elvora/state.json</code></pre></di
   </section>
   <section id="pricing">
     <h2>Pricing</h2>
-    <p class="sub">Elvora is not free to use. <strong>$49 per enrolled Mac per year</strong> (about ₹4,150 excl. GST in India). One licence covers one Mac in your fleet for twelve months. Pay on <a href="https://payments.cashfree.com/forms/zyvor-elvora">Cashfree</a> (India and international cards). Plain-language terms on <a href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">LICENSING.md</a>.</p>
-    <p class="cta" style="justify-content:flex-start"><a class="btn primary" href="https://payments.cashfree.com/forms/zyvor-elvora">Buy on Cashfree</a><a class="btn" href="mailto:sales@zyvor.dev?subject=Elvora%20licence">sales@zyvor.dev</a><a class="btn" href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">Licensing details</a></p>
+    <p class="sub">Elvora is not free to use. Pay once per Mac, get the invoice, install.</p>
+    <div class="grid">
+      <article class="card">
+        <h3>Elvora</h3>
+        <p><strong>$49 / enrolled Mac / year</strong> · about ₹4,899 incl. GST</p>
+        <p>One Mac in your fleet for twelve months. Invoice emailed (your proof of licence). Cards from India and abroad via Cashfree.</p>
+        <p class="cta" style="justify-content:flex-start"><a class="btn primary" href="https://payments.cashfree.com/forms/zyvor-elvora">Buy now</a></p>
+      </article>
+      <article class="card">
+        <h3>Then install</h3>
+        <div class="code"><button class="copy" type="button" aria-label="Copy Homebrew install">Copy</button>
+<pre><code>brew install zyvorai/tap/elvora
+brew install --cask zyvorai/tap/elvora</code></pre></div>
+        <p>Multi-Mac / Enterprise: <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>. Terms: <a href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">LICENSING.md</a>.</p>
+      </article>
+    </div>
   </section>
 </main>
 
