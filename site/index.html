@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Elvora · The Apple Infrastructure Cloud</title>
+  <meta name="description" content="Turn Mac mini and Mac Studio fleets into schedulable infrastructure for Xcode CI, Apple Silicon AI and macOS VMs. A Go control plane with a whole-Mac scheduler and signed assignments." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="canonical" href="https://zyvorai.github.io/elvora/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Elvora" />
+  <meta property="og:title" content="Elvora · The Apple Infrastructure Cloud" />
+  <meta property="og:description" content="Mac fleets as schedulable infrastructure: Xcode CI, MLX, macOS VMs." />
+  <meta property="og:url" content="https://zyvorai.github.io/elvora/" />
+  <meta property="og:image" content="https://zyvorai.github.io/elvora/social/elvora-hero-dark.jpg" />
+  <meta property="og:image:width" content="2400" />
+  <meta property="og:image:height" content="1260" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://zyvorai.github.io/elvora/social/elvora-hero-dark.jpg" />
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="site.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Elvora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS (Apple silicon)","description":"A Go control plane that turns Mac mini and Mac Studio fleets into schedulable infrastructure.","license":"https://www.apache.org/licenses/LICENSE-2.0","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <a class="brand" href="./" aria-label="Elvora home"><img class="logo" src="favicon.svg" alt="" width="32" height="32" /><b>ELVORA</b><small class="by"><svg class="zmark" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2h14L6.6 16H16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>by Zyvor</small></a>
+  <nav aria-label="Sections" id="sections">
+    <a href="#download">Download</a><a href="#gallery">See it</a><a href="#fleet">Fleet</a><a href="#scheduling">Scheduling</a><a href="#execution">Execution</a><a href="#security">Security</a><a href="#architecture">Architecture</a><a href="#quickstart">Quick start</a><a href="#support">Support</a>
+  </nav>
+  <div class="bar-actions">
+    <button id="theme" class="icon" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+      <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+    <a class="btn small" href="https://github.com/zyvorai/elvora">GitHub</a>
+    <a class="btn small primary" href="#download">Download</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <p class="kicker">Zyvor · Apple fleet control plane</p>
+    <h1>The Apple <em>Infrastructure Cloud.</em></h1>
+    <p class="lede">Elvora turns fleets of <strong>Mac mini</strong> and <strong>Mac Studio</strong> systems into schedulable infrastructure for <strong>Xcode CI</strong>, native <strong>Apple Silicon AI</strong>, dedicated developer machines and <strong>macOS VM</strong> orchestration. A fleet should feel like infrastructure, not a spreadsheet of hostnames.</p>
+    <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz">Download 0.4.1 (CLI)</a><a class="btn" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg">.dmg</a><a class="link" href="#gallery">See the console</a></p>
+    <p class="fine">Notarized · Apple silicon · Apache-2.0</p>
+    <ul class="chips" aria-label="Highlights"><li class="ro">Apple silicon</li><li>Whole-Mac scheduler</li><li>Xcode CI</li><li>MLX</li><li>macOS VMs</li><li>Signed assignments</li><li>Go, stdlib only</li></ul>
+    <img class="hero-img" src="social/elvora-hero-dark.jpg" width="2400" height="1260" alt="Elvora: The Apple Infrastructure Cloud, with the web console showing a Mac fleet overview" />
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>The console, light and dark</h2>
+    <p class="sub">Captured from a real local control plane with one registered Mac and a few queued workloads, reservations and maintenance windows. The console is embedded in the Go binary and has no dependencies.</p>
+    <div class="controls" id="controls">
+      <div class="seg" role="radiogroup" aria-label="Appearance" data-key="mode">
+        <button type="button" role="radio" aria-checked="false" data-value="light">Light</button>
+        <button type="button" role="radio" aria-checked="true" data-value="dark">Dark</button>
+      </div>
+      <div class="seg" role="radiogroup" aria-label="Scene" data-key="view">
+        <button type="button" role="radio" aria-checked="true" data-value="overview">Overview</button>
+        <button type="button" role="radio" aria-checked="false" data-value="nodes">Nodes</button>
+        <button type="button" role="radio" aria-checked="false" data-value="workloads">Workloads</button>
+        <button type="button" role="radio" aria-checked="false" data-value="maintenance">Maintenance</button>
+      </div>
+    </div>
+    <figure class="shot"><img id="shot" src="ux/console-dark-overview.png" width="2880" height="1800" alt="Elvora console: Overview, dark appearance" />
+      <figcaption id="shot-cap">Overview · dark</figcaption></figure>
+  </section>
+
+  <section class="band" aria-label="Promises">
+    <div><b>Whole-Mac</b><span>One active workload per Mac, no noisy neighbours.</span></div>
+    <div><b>Signed</b><span>HMAC-signed, expiring, single-claim assignments.</span></div>
+    <div><b>Explainable</b><span>Placement scores come from free memory and utilization.</span></div>
+    <div><b>Honest</b><span>A developer preview, with its security boundary spelled out.</span></div>
+  </section>
+
+  <section id="fleet">
+    <h2>Fleet control</h2>
+    <p class="sub">A native agent reports what each Mac really is, and the control plane keeps the inventory live.</p>
+    <div class="grid">
+      <article class="card"><h3>Discovery</h3><p>Apple chip, memory, OS, Xcode, IP and capabilities, advertised by <code>elvora-agent</code> on macOS or Linux development nodes.</p></article>
+      <article class="card"><h3>Labels and states</h3><p>Labels such as <code>site=pune</code>, <code>pool=ios-ci</code>, <code>tier=m4-pro</code>. Online, busy and offline states, with automatic offline reaping.</p></article>
+      <article class="card"><h3>Easy enrollment</h3><p>Short-lived one-time enrollment tokens, drain and resume with maintenance reasons, and per-node update channels.</p></article>
+      <article class="card"><h3>Reservations and maintenance</h3><p>Reserve Macs for a time window, or take them out of placement for scheduled maintenance.</p></article>
+      <article class="card"><h3>Node actions</h3><p>An auditable queue for cleanup, simulator pruning, capability refresh, agent update and guarded reboot.</p></article>
+      <article class="card"><h3>Doctor</h3><p><code>elvoractl doctor</code> and agent doctor flows check local and server health.</p></article>
+    </div>
+  </section>
+
+  <section id="scheduling">
+    <h2>A scheduler that explains itself</h2>
+    <div class="grid">
+      <article class="card"><h3>Filters</h3><p>Available memory, chip substring, GPU family and exact labels.</p></article>
+      <article class="card"><h3>Score</h3><p>An explainable score based on free memory and utilization.</p></article>
+      <article class="card"><h3>Queue</h3><p>Priority queueing with automatic rescheduling, and node reservation before assignment issuance.</p></article>
+    </div>
+  </section>
+
+  <section id="execution">
+    <h2>Execution plane</h2>
+    <table>
+      <tr><th>Kind</th><th>What it runs</th></tr>
+      <tr><td>bare-metal</td><td>A native command on a dedicated node.</td></tr>
+      <tr><td>xcode-ci</td><td>Xcode and build commands on macOS.</td></tr>
+      <tr><td>mlx-ai</td><td>MLX, Python, llama.cpp and Core ML wrappers, with unified memory as a first-class resource.</td></tr>
+      <tr><td>macos-vm</td><td>A pluggable FluxVM or Virtualization.framework adapter.</td></tr>
+    </table>
+    <p class="sub">Runtime deadlines, bounded stdout and stderr capture, native exit codes, and remote operator cancellation that cancels the actual running child process.</p>
+  </section>
+
+  <section id="security">
+    <h2>Security and control</h2>
+    <div class="grid">
+      <article class="card"><h3>Signed assignments</h3><p>HMAC-SHA256 signatures with expiry, node binding and a nonce.</p></article>
+      <article class="card"><h3>Separate credentials</h3><p>Agent and operator credentials are distinct, with optional <code>viewer</code> and <code>admin</code> RBAC tokens.</p></article>
+      <article class="card"><h3>Audit trail</h3><p>Event records carry the actor, and responses carry security headers.</p></article>
+    </div>
+    <p class="sub"><strong>Status: v0.4.1 developer preview.</strong> Production-shaped, but not yet a hardened multi-tenant security boundary. Read the security and threat-model docs before deploying outside a trusted environment.</p>
+  </section>
+
+  <section id="architecture">
+    <h2>Architecture</h2>
+    <div class="grid">
+      <article class="card"><h3>Control plane</h3><p><code>elvora-server</code>: scheduler, signed assignments, operator API, metrics and the web console. Durable atomic JSON state.</p></article>
+      <article class="card"><h3>Agent and CLI</h3><p><code>elvora-agent</code> claims and runs assignments. <code>elvoractl</code> enrolls, schedules, drains and diagnoses.</p></article>
+      <article class="card"><h3>Native helpers</h3><p>Swift setup, menu-bar and Virtualization.framework helpers for the Mac.</p></article>
+    </div>
+    <p class="sub">Operations: <code>/healthz</code>, <code>/readyz</code>, Prometheus-compatible <code>/metrics</code>, a Docker image, a launchd agent example, and Linux plus native macOS CI.</p>
+  </section>
+
+  <section id="download">
+    <h2>Download</h2>
+    <p class="sub">Notarized builds from <a href="https://github.com/zyvorai/elvora/releases">Releases</a>. This public repository publishes website, docs and installers only — no source code.</p>
+    <div class="grid">
+      <article class="card"><h3>Mac CLI + agent</h3><p><a href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz">elvora-darwin-arm64.tar.gz</a> (8.1 MB). Agent, <code>elvoractl</code> and FluxVM runner.</p>
+      <p><a class="btn primary" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz">Download CLI</a></p></article>
+      <article class="card"><h3>Menu-bar app</h3><p><a href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg">Elvora-0.4.1.dmg</a>. Drag to Applications.</p>
+      <p><a class="btn" href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg">Download .dmg</a></p></article>
+      <article class="card"><h3>Linux control plane</h3><p><a href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-linux-amd64.tar.gz">amd64</a> · <a href="https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-linux-arm64.tar.gz">arm64</a> tarballs with <code>elvora-server</code>.</p></article>
+      <article class="card"><h3>One-line install</h3><p class="sub">On Apple silicon:</p>
+<div class="code"><button class="copy" type="button" aria-label="Copy install">Copy</button>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/zyvorai/elvora/v0.4.1/scripts/install.sh | ELVORA_VERSION=v0.4.1 sh</code></pre></div></article>
+    </div>
+  </section>
+  <section id="quickstart">
+    <h2>Quick start</h2>
+    <p class="sub">After installing the binaries, start the control plane, then enroll a Mac. Full steps: <a href="https://github.com/zyvorai/elvora/blob/main/docs/INSTALL.md">INSTALL.md</a>.</p>
+    <div class="code"><button class="copy" type="button" aria-label="Copy the server command">Copy</button>
+<pre><code>export ELVORA_AGENT_SECRET="$(openssl rand -hex 32)"
+export ELVORA_API_TOKENS="admin:$(openssl rand -hex 32),viewer:$(openssl rand -hex 32)"
+elvora-server --listen :8080 --state /var/lib/elvora/state.json</code></pre></div>
+    <div class="code"><button class="copy" type="button" aria-label="Copy the agent command">Copy</button>
+<pre><code>elvora-agent --server https://elvora.example.internal \
+  --labels site=pune,pool=ios-ci,tier=m4-pro</code></pre></div>
+  </section>
+  <section id="support">
+    <h2>Support the project</h2>
+    <p class="sub">Free under Apache-2.0. If it helps you, you can donate any amount you like. A donation is voluntary and supports development and maintenance. It is not a purchase: it buys no support, SLA, features, priority or license, and it is not tax-deductible (Zyvor AI Labs Private Limited is a company, not a charity). Support contracts are separate: <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>.</p>
+    <p class="cta" style="justify-content:flex-start"><a class="btn primary" href="https://rzp.io/rzp/utwdYh3">Donate any amount</a></p>
+  </section>
+</main>
+
+<footer>
+  <p><svg class="zmark" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2h14L6.6 16H16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> <b>Elvora</b> · Crafted by Zyvor AI Labs · Apache-2.0 · <a href="https://github.com/zyvorai/elvora">GitHub</a> · <a href="https://github.com/zyvorai/elvora/releases">Releases</a> · <a href="#support">Support</a></p>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script src="site.js"></script>
+</body>
+</html>
