@@ -12,7 +12,7 @@ export ELVORA_VM_RUNNER="$(brew --prefix elvora)/libexec/elvora-fluxvm-runner"
 
 FluxVM on the Mac should be **≥ 0.4.18** (prefer 0.4.19): `brew install zyvorai/tap/fluxvm`.
 
-Licence: **$199 / enrolled Mac / year** on [Razorpay](https://rzp.io/rzp/sW0fMhui) (India + international cards).
+Licence: **$199 / enrolled Mac / year** on [India (Cashfree)](https://payments.cashfree.com/forms/zyvor-elvora-199) · [International (Razorpay)](https://rzp.io/rzp/sW0fMhui) (Cashfree for India; Razorpay for international cards).
 
 ## Mac: tarball or DMG
 
