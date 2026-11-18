@@ -6,7 +6,7 @@ Elvora is **not free to use**. Published builds (control plane, agent, CLI, menu
 
 ## Price
 
-- **$49 per enrolled Mac per year** (Cashfree checkout **₹4,899 including GST** in India; about US$49–58 depending on FX).
+- **$199 per enrolled Mac per year** (Cashfree checkout shows the INR amount including GST in India).
 - One licence covers production use of **one Mac** enrolled in an Elvora fleet for twelve months.
 - Licence **each Mac** you enroll. The control-plane host does not need a separate licence if it only runs `elvora-server` and is not enrolled as a worker.
 - Checkout is on [Cashfree](https://payments.cashfree.com/forms/zyvor-elvora) — **India and international cards** are accepted. The invoice is your proof of licence.

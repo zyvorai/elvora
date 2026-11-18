@@ -44,7 +44,7 @@ This repository holds the **website, documentation and downloadable builds** (se
    ```
 
    Or download [`elvora-darwin-arm64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz) / the [`.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg). See [INSTALL.md](docs/INSTALL.md).
-2. Buy a licence on [Cashfree](https://payments.cashfree.com/forms/zyvor-elvora) ($49 / enrolled Mac / year; India + international cards).
+2. Buy a licence on [Cashfree](https://payments.cashfree.com/forms/zyvor-elvora) ($199 / enrolled Mac / year; India + international cards).
 3. Start a control plane, enroll Macs, submit workloads.
 
 ## New in 0.4
@@ -67,6 +67,6 @@ v0.4 developer preview: production-shaped control plane and agent, **not** yet a
 
 ## Pricing and licence
 
-Elvora is **not free to use**. **$49 per enrolled Mac per year** (about ₹4,150 excl. GST in India). Buy on [Cashfree](https://payments.cashfree.com/forms/zyvor-elvora) (India + international cards) or [sales@zyvor.dev](mailto:sales@zyvor.dev). Plain-language terms: [LICENSING.md](LICENSING.md).
+Elvora is **not free to use**. **$199 per enrolled Mac per year** (INR amount shown at checkout, GST extra in India). Buy on [Cashfree](https://payments.cashfree.com/forms/zyvor-elvora) (India + international cards) or [sales@zyvor.dev](mailto:sales@zyvor.dev). Plain-language terms: [LICENSING.md](LICENSING.md).
 
 The website and documentation are Copyright 2026 Zyvor AI Labs ([LICENSE](LICENSE)).
