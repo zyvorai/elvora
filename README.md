@@ -17,6 +17,8 @@
 
 ✨ **[New in 0.4](#new-in-04)** · 🖼️ **[Gallery](#gallery)** · 🌐 **[Website](https://zyvorai.github.io/elvora/)** · 📦 **[Install guide](docs/INSTALL.md)**
 
+[Client overview (PDF)](docs/Elvora-Client-Overview.pdf)
+
 | ⬇️ Download v0.4.1 | Size | SHA-256 |
 | --- | --- | --- |
 | [**Elvora-0.4.1.dmg**](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg): menu-bar app, drag to Applications | 116 KB | [`e435d60d…df5a3e1`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg.sha256) |
