@@ -1,72 +1,79 @@
 <div align="center">
 
-<img src="docs/social/elvora-icon-1024.png" width="128" alt="Elvora icon">
+<img src="site/social/og.png" width="840" alt="Elvora: the Apple infrastructure cloud. The console window shows demo data." />
 
 # Elvora
 
-**The Apple Infrastructure Cloud.**
+### The Apple infrastructure cloud.
 
-[![Release](https://img.shields.io/badge/release-v0.4.1-0a84ff?logo=github)](https://github.com/zyvorai/elvora/releases/tag/v0.4.1)
-[![Download .dmg](https://img.shields.io/badge/download-.dmg-64d2ff?logo=apple&logoColor=white)](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg)
-[![Download CLI](https://img.shields.io/badge/download-darwin%20CLI-30d158?logo=apple&logoColor=white)](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz)
-[![Website](https://img.shields.io/badge/website-zyvorai.github.io%2Felvora-8e7cff)](https://zyvorai.github.io/elvora/)
-[![Platform](https://img.shields.io/badge/Apple%20silicon%20%C2%B7%20macOS-000000?logo=apple&logoColor=white)](docs/INSTALL.md)
-[![License](https://img.shields.io/badge/licence-commercial-0071e3)](LICENSING.md)
+Schedule Xcode CI, MLX, VMs and automation across your enrolled Macs.
 
-![Elvora: the Apple Infrastructure Cloud](docs/social/elvora-hero-dark.jpg)
+<br />
 
-✨ **[New in 0.4](#new-in-04)** · 🖼️ **[Gallery](#gallery)** · 🌐 **[Website](https://zyvorai.github.io/elvora/)** · 📦 **[Install guide](docs/INSTALL.md)**
+**[Download the 30-day trial](https://github.com/zyvorai/elvora/releases/tag/v0.4.2)** &nbsp;·&nbsp; [Website](https://zyvorai.github.io/elvora/) &nbsp;·&nbsp; [Install guide](docs/INSTALL.md) &nbsp;·&nbsp; [Buy a licence](https://zyvor.dev/buy)
 
-[Client overview (PDF)](docs/Elvora-Client-Overview.pdf)
-
-| ⬇️ Download v0.4.1 | Size | SHA-256 |
-| --- | --- | --- |
-| [**Elvora-0.4.1.dmg**](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg): menu-bar app, drag to Applications | 116 KB | [`e435d60d…df5a3e1`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg.sha256) |
-| [**elvora-darwin-arm64.tar.gz**](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz): agent, CLI, FluxVM runner | 8.1 MB | [`c2026dcb…c8d7b1`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz.sha256) |
-| [**elvora-linux-amd64.tar.gz**](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-linux-amd64.tar.gz): server + CLI for Linux amd64 | 12 MB | [`109e1f90…de9956`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/SHA256SUMS) |
-| [**elvora-linux-arm64.tar.gz**](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-linux-arm64.tar.gz): server + CLI for Linux arm64 | 11 MB | [`5452b720…050f87`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/SHA256SUMS) |
-
-<sub>Developer ID signed and notarized. All releases: <a href="https://github.com/zyvorai/elvora/releases">Releases</a>.</sub>
+`Elvora-0.4.2.dmg` · macOS 14 or later · Apple silicon · signed and notarized
 
 </div>
 
-Elvora turns fleets of **Mac mini** and **Mac Studio** systems into schedulable Apple infrastructure for Xcode CI, native Apple Silicon AI, dedicated developer machines, automation and macOS VM orchestration (FluxVM).
+---
 
-This repository holds the **website, documentation and downloadable builds** (see Releases). It does **not** contain the control-plane source code.
+## Download (trial)
 
-## Get started
+| | |
+| --- | --- |
+| **Get it** | [Elvora 0.4.2](https://github.com/zyvorai/elvora/releases/tag/v0.4.2): [`Elvora-0.4.2.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.2/Elvora-0.4.2.dmg) and its `.sha256` checksum |
+| **SHA-256** | `4f564481baf595a5de4696666bc19305d513318359e4e232cee2fdcf8867467a` |
+| **Free 30-day trial key** | **sales@zyvor.dev** |
+| **Requirements** | The Mac app needs macOS 14 or later, Apple silicon |
+| **Notarized** | Signed with our Developer ID and notarized by Apple, so it opens without a Gatekeeper warning |
 
-1. Install with Homebrew (Apple silicon):
+Install the menu-bar app with Homebrew instead: `brew install --cask zyvorai/tap/elvora`. The agent, CLI and FluxVM runner: `brew install zyvorai/tap/elvora`. Full steps: [docs/INSTALL.md](docs/INSTALL.md). Earlier builds (agent and CLI tarball, Linux control plane) are on the [Releases page](https://github.com/zyvorai/elvora/releases).
 
-   ```bash
-   brew install zyvorai/tap/elvora          # agent, CLI, FluxVM runner
-   brew install --cask zyvorai/tap/elvora   # menu-bar app
-   ```
+## See it
 
-   Or download [`elvora-darwin-arm64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz) / the [`.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg). See [INSTALL.md](docs/INSTALL.md).
-2. Buy a licence on [India (Cashfree)](https://payments.cashfree.com/forms/zyvor-elvora-199) · [International (Razorpay)](https://rzp.io/rzp/sW0fMhui) ($199 / enrolled Mac / year).
-3. Start a control plane, enroll Macs, submit workloads.
-
-## New in 0.4
-
-- **FluxVM 0.4.18+ runner:** version floor, `MODE=session`, optional netobs history, network + snapshot on workload detail.
-- **Capacity page** and queue / usage / scale-hints API for operators.
-- **Notarized** macOS DMG and darwin-arm64 CLI tarball.
-
-## Gallery
+*Screenshots are the web console of a local control plane with one registered Mac and a few queued workloads (demo data).*
 
 | Overview | Nodes |
 | --- | --- |
-| ![Overview, dark](docs/ux/console-dark-overview.png) | ![Nodes, dark](docs/ux/console-dark-nodes.png) |
-| **Workloads** | **Maintenance** |
-| ![Workloads, dark](docs/ux/console-dark-workloads.png) | ![Maintenance, dark](docs/ux/console-dark-maintenance.png) |
+| <img src="docs/ux/console-dark-overview.png" alt="Overview, dark, demo data" width="420" /> | <img src="docs/ux/console-dark-nodes.png" alt="Nodes, dark, demo data" width="420" /> |
+| <img src="docs/ux/console-light-overview.png" alt="Overview, light, demo data" width="420" /> | <img src="docs/ux/console-light-nodes.png" alt="Nodes, light, demo data" width="420" /> |
 
-## Status
+| Workloads | Maintenance |
+| --- | --- |
+| <img src="docs/ux/console-dark-workloads.png" alt="Workloads, dark, demo data" width="420" /> | <img src="docs/ux/console-dark-maintenance.png" alt="Maintenance, dark, demo data" width="420" /> |
 
-v0.4 developer preview: production-shaped control plane and agent, **not** yet a hardened multi-tenant security boundary. Read [SECURITY.md](SECURITY.md) before deploying outside a trusted environment.
+## What it does
 
-## Pricing and licence
+Elvora is a control plane, an agent, a CLI and a menu-bar app that turn fleets of Mac mini and Mac Studio systems into schedulable infrastructure for Xcode CI, native Apple Silicon AI, dedicated developer machines, automation and macOS VM orchestration (FluxVM).
 
-Elvora is **not free to use**. **$199 per enrolled Mac per year** (checkout is in INR: Rs 16,900 plus 18% GST = Rs 19,942; international cards are accepted). Buy on [India (Cashfree)](https://payments.cashfree.com/forms/zyvor-elvora-199) · [International (Razorpay)](https://rzp.io/rzp/sW0fMhui) (Cashfree for India; Razorpay for international cards) or [sales@zyvor.dev](mailto:sales@zyvor.dev). Plain-language terms: [LICENSING.md](LICENSING.md).
+- **Fleet:** a native agent reports Apple chip, memory, OS, Xcode, IP and capabilities; the control plane keeps the inventory live. Labels such as `site=pune`, `pool=ios-ci`, `tier=m4-pro`.
+- **Scheduler that explains itself:** filters on available memory, chip, GPU family and labels; an explainable score from free memory and utilization; priority queueing with automatic rescheduling. One active workload per Mac.
+- **Four kinds of work:** `bare-metal`, `xcode-ci`, `mlx-ai` and `macos-vm` (a pluggable FluxVM or Virtualization.framework adapter), with runtime deadlines, bounded output capture, native exit codes and real cancellation.
+- **Maintenance:** reservations, maintenance windows, drain and resume, and an auditable queue of node actions (cleanup, simulator pruning, capability refresh, agent update, guarded reboot).
+- **Security and control:** HMAC-SHA256 signed assignments with expiry, node binding and a nonce; separate agent and operator credentials with optional viewer and admin RBAC tokens; audit trail.
+- **Operations:** `/healthz`, `/readyz`, Prometheus-compatible `/metrics`, a Docker image, a launchd agent example.
+- **Menu-bar app:** shows control-plane status from `ELVORA_SERVER` and `ELVORA_API_TOKEN`.
+
+## Requirements
+
+- The Mac app requires **macOS 14 or later**, on Apple silicon.
+- FluxVM on the Mac should be 0.4.18 or later for `macos-vm` workloads (see the [install guide](docs/INSTALL.md)).
+- **Status:** developer preview. Production-shaped control plane and agent, **not** yet a hardened multi-tenant security boundary. Read [SECURITY.md](SECURITY.md) before deploying outside a trusted environment.
+
+## Trial and licence
+
+- **Free 30-day trial key: sales@zyvor.dev.**
+- **Licence:** ₹19,942 per enrolled Mac per year including GST. Buy at https://zyvor.dev/buy or on the [payment page](https://rzp.io/rzp/sW0fMhui).
+- Plain-language terms: [LICENSING.md](LICENSING.md). Multi-Mac invoices: [sales@zyvor.dev](mailto:sales@zyvor.dev).
+
+## Documentation
+
+- [Website](https://zyvorai.github.io/elvora/)
+- [Install guide](docs/INSTALL.md)
+- [Client overview (PDF)](docs/Elvora-Client-Overview.pdf)
+- [Licensing in plain words](LICENSING.md) · [Security](SECURITY.md)
+
+The Elvora source code is private. This repository holds the website, documentation and downloadable builds.
 
 The website and documentation are Copyright 2026 Zyvor AI Labs ([LICENSE](LICENSE)).

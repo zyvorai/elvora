@@ -12,7 +12,7 @@ export ELVORA_VM_RUNNER="$(brew --prefix elvora)/libexec/elvora-fluxvm-runner"
 
 FluxVM on the Mac should be **≥ 0.4.18** (prefer 0.4.19): `brew install zyvorai/tap/fluxvm`.
 
-Licence: **$199 / enrolled Mac / year** on [India (Cashfree)](https://payments.cashfree.com/forms/zyvor-elvora-199) · [International (Razorpay)](https://rzp.io/rzp/sW0fMhui) (Cashfree for India; Razorpay for international cards).
+Licence: **₹19,942 per enrolled Mac per year including GST**. Buy at [zyvor.dev/buy](https://zyvor.dev/buy) or on the [payment page](https://rzp.io/rzp/sW0fMhui). Free 30-day trial key: sales@zyvor.dev.
 
 ## Mac: tarball or DMG
 
@@ -33,7 +33,7 @@ Set `ELVORA_VM_RUNNER=/usr/local/libexec/elvora-fluxvm-runner` on agents that ru
 
 ### Menu-bar app
 
-Download [`Elvora-0.4.1.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/Elvora-0.4.1.dmg), open it, drag **Elvora** to Applications — or `brew install --cask zyvorai/tap/elvora`. It shows control-plane status from `ELVORA_SERVER` / `ELVORA_API_TOKEN`.
+Download [`Elvora-0.4.2.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.2/Elvora-0.4.2.dmg) (macOS 14 or later), open it, drag **Elvora** to Applications — or `brew install --cask zyvorai/tap/elvora`. It shows control-plane status from `ELVORA_SERVER` / `ELVORA_API_TOKEN`.
 
 ## Linux: control plane
 
