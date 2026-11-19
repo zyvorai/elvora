@@ -24,9 +24,9 @@ Schedule Xcode CI, MLX, VMs and automation across your enrolled Macs.
 | --- | --- |
 | **Get it** | [Elvora 0.4.2](https://github.com/zyvorai/elvora/releases/tag/v0.4.2): [`Elvora-0.4.2.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.2/Elvora-0.4.2.dmg) and its `.sha256` checksum |
 | **SHA-256** | `4f564481baf595a5de4696666bc19305d513318359e4e232cee2fdcf8867467a` |
-| **Free 30-day trial key** | **sales@zyvor.dev** |
+| **Trial key** | The app runs without a key. For a free 30-day trial key, email **sales@zyvor.dev** |
 | **Requirements** | The Mac app needs macOS 14 or later, Apple silicon |
-| **Notarized** | Signed with our Developer ID and notarized by Apple, so it opens without a Gatekeeper warning |
+| **Notarized** | Signed with our Developer ID. Notarized by Apple; macOS shows its standard first-open confirmation for apps downloaded from the internet |
 
 Install the menu-bar app with Homebrew instead: `brew install --cask zyvorai/tap/elvora`. The agent, CLI and FluxVM runner: `brew install zyvorai/tap/elvora`. Full steps: [docs/INSTALL.md](docs/INSTALL.md). Earlier builds (agent and CLI tarball, Linux control plane) are on the [Releases page](https://github.com/zyvorai/elvora/releases).
 
@@ -63,7 +63,7 @@ Elvora is a control plane, an agent, a CLI and a menu-bar app that turn fleets o
 
 ## Trial and licence
 
-- **Free 30-day trial key: sales@zyvor.dev.**
+- The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev.
 - **Licence:** ₹19,942 per enrolled Mac per year including GST. Buy at https://zyvor.dev/buy or on the [payment page](https://rzp.io/rzp/sW0fMhui).
 - Plain-language terms: [LICENSING.md](LICENSING.md). Multi-Mac invoices: [sales@zyvor.dev](mailto:sales@zyvor.dev).
 
