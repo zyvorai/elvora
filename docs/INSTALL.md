@@ -12,7 +12,7 @@ export ELVORA_VM_RUNNER="$(brew --prefix elvora)/libexec/elvora-fluxvm-runner"
 
 FluxVM on the Mac should be **≥ 0.4.18** (prefer 0.4.19): `brew install zyvorai/tap/fluxvm`.
 
-Licence: **₹19,942 per enrolled Mac per year including GST**. Buy at [zyvor.dev/buy](https://zyvor.dev/buy) or on the [payment page](https://rzp.io/rzp/sW0fMhui). The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev.
+Licence: **INR 19,942 per enrolled Mac per year incl. GST in India (about US$201 excl. tax outside India)**. [Buy](https://zyvor.dev/buy#elvora). Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev. The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev.
 
 ## Mac: tarball or DMG
 
