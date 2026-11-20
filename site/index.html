@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Elvora · The Apple infrastructure cloud.</title>
+<meta name="description" content="Elvora turns fleets of Mac mini and Mac Studio systems into schedulable infrastructure for Xcode CI, native Apple Silicon AI, dedicated developer machines, automation and macOS VM orchestration.">
+<link rel="canonical" href="https://zyvorai.github.io/elvora/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Elvora">
+<meta property="og:title" content="Elvora · The Apple infrastructure cloud.">
+<meta property="og:description" content="Schedule Xcode CI, MLX, VMs and automation across your enrolled Macs. Control plane, agent, CLI and menu-bar app.">
+<meta property="og:url" content="https://zyvorai.github.io/elvora/">
+<meta property="og:image" content="https://zyvorai.github.io/elvora/social/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Elvora: The Apple infrastructure cloud. The console window shows demo data.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Elvora · The Apple infrastructure cloud.">
+<meta name="twitter:description" content="Schedule Xcode CI, MLX, VMs and automation across your enrolled Macs. Control plane, agent, CLI and menu-bar app.">
+<meta name="twitter:image" content="https://zyvorai.github.io/elvora/social/og.png">
+<meta name="twitter:image:alt" content="Elvora: The Apple infrastructure cloud. The console window shows demo data.">
+<link rel="stylesheet" href="assets/landing.css">
+<style>:root{--accent-btn:#0071e3;--accent-ink:#0071e3;--accent-grad-a:#0a84ff;--accent-grad-b:#64d2ff}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent-ink:#2997ff}}:root[data-theme="dark"]{--accent-ink:#2997ff}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Elvora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS","softwareVersion":"0.4.2","downloadUrl":"https://github.com/zyvorai/elvora/releases/tag/v0.4.2","url":"https://zyvorai.github.io/elvora/","description":"Elvora turns fleets of Mac mini and Mac Studio systems into schedulable infrastructure for Xcode CI, native Apple Silicon AI, dedicated developer machines, automation and macOS VM orchestration.","image":"https://zyvorai.github.io/elvora/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs","url":"https://zyvor.dev"},"offers":[{"@type":"Offer","name":"Elvora (India, incl. 18% GST)","price":"19942","priceCurrency":"INR","url":"https://zyvor.dev/buy#elvora"},{"@type":"Offer","name":"Elvora (outside India, excl. tax)","price":"201","priceCurrency":"USD","url":"https://zyvor.dev/buy#elvora"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <a class="brand" href="./" aria-label="Elvora home"><img src="favicon.svg" width="26" height="26" alt=""><span>Elvora</span></a>
+  <nav aria-label="Primary"><ul><li><a href="#features">Features</a></li><li><a href="#specs">Specs</a></li><li><a href="#start">Get started</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#faq">FAQ</a></li><li><a href="https://github.com/zyvorai/elvora/blob/main/docs/INSTALL.md">Install guide</a></li></ul></nav>
+  <a class="btn small primary" href="https://github.com/zyvorai/elvora/releases/tag/v0.4.2">Download</a>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="top">
+  <img class="icon" src="favicon.svg" width="96" height="96" alt="Elvora app icon">
+  <p class="eyebrow">Zyvor · Apple fleet control plane</p>
+  <h1 id="top">Elvora</h1>
+  <p class="tagline">The Apple infrastructure cloud.</p>
+  <p class="promise"><strong>Schedule Xcode CI, MLX, VMs and automation across your Macs.</strong> A control plane, an agent, a CLI and a menu-bar app turn fleets of Mac mini and Mac Studio systems into schedulable infrastructure. One active workload per Mac, no noisy neighbours.</p>
+  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/elvora/releases/tag/v0.4.2">Download the 30-day trial</a><a class="textlink" href="#features">Learn more</a></p>
+  <p class="fine">The Mac app needs macOS 14 or later · Apple silicon · notarized · The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. The trial is soft: nothing is disabled and no data is lost.</p>
+  <figure class="shot hero-shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/hero-overview-dark-1200.webp 1200w, assets/img/hero-overview-dark-1800.webp 1800w" sizes="(min-width:1080px) 1040px, 100vw"><img src="assets/img/hero-overview-light-1200.webp" srcset="assets/img/hero-overview-light-1200.webp 1200w, assets/img/hero-overview-light-1800.webp 1800w" sizes="(min-width:1080px) 1040px, 100vw" width="2880" height="1800" alt="Elvora console, Overview: Mac Fleet with counts of machines, available Macs, CPU cores and unified memory, an outcomes panel and the live fleet inventory." fetchpriority="high" decoding="async"></picture><figcaption>Web console. Demo data from a local control plane with one registered Mac.</figcaption></figure>
+</section>
+
+<section class="band" aria-label="Overview">
+  <h2>A fleet should feel like infrastructure, not a spreadsheet of hostnames.</h2>
+  <p>Whole-Mac scheduling, signed assignments and a security boundary that is spelled out.</p>
+</section>
+
+<div id="features">
+<h2 class="sr">Features</h2>
+<section class="feature" id="fleet" aria-labelledby="h-fleet"><div class="grid"><div class="copy"><p class="eyebrow">Fleet</p><h3 id="h-fleet">Every Mac, live.</h3><p>A native agent reports what each Mac really is, and the control plane keeps the inventory live: chip, memory, OS, Xcode and capabilities.</p><a class="textlink" href="https://github.com/zyvorai/elvora/blob/main/docs/INSTALL.md">Install guide</a></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/fleet-dark-1200.webp 1200w, assets/img/fleet-dark-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/fleet-light-1200.webp" srcset="assets/img/fleet-light-1200.webp 1200w, assets/img/fleet-light-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw" width="2880" height="1800" alt="Elvora console, Overview: Mac Fleet with machine, availability, CPU core and unified memory counts, and one registered Mac in the live inventory." loading="lazy" decoding="async"></picture><figcaption>Web console. Demo data from a local control plane with one registered Mac.</figcaption></figure></div></section>
+<section class="feature flip" id="nodes" aria-labelledby="h-nodes"><div class="grid"><div class="copy"><p class="eyebrow">Nodes</p><h3 id="h-nodes">Know what each Mac is.</h3><p>Labels such as site=pune, pool=ios-ci and tier=m4-pro. Online, busy and offline states, drain and resume with maintenance reasons, and an auditable queue of node actions.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/nodes-dark-1200.webp 1200w, assets/img/nodes-dark-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/nodes-light-1200.webp" srcset="assets/img/nodes-light-1200.webp 1200w, assets/img/nodes-light-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw" width="2880" height="1800" alt="Elvora console, Nodes: one Mac card with CPU, memory and GPU meters, its labels, and Drain, Jobs, Run action and Maintenance note buttons." loading="lazy" decoding="async"></picture><figcaption>Web console. Demo data from a local control plane with one registered Mac.</figcaption></figure></div></section>
+<section class="feature" id="workloads" aria-labelledby="h-workloads"><div class="grid"><div class="copy"><p class="eyebrow">Workloads</p><h3 id="h-workloads">A scheduler that explains itself.</h3><p>Filter on available memory, chip, GPU family and labels. An explainable score from free memory and utilization, priority queueing and automatic rescheduling.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/workloads-dark-1200.webp 1200w, assets/img/workloads-dark-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/workloads-light-1200.webp" srcset="assets/img/workloads-light-1200.webp 1200w, assets/img/workloads-light-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw" width="2880" height="1800" alt="Elvora console, Workloads: a table of queued and assigned jobs of kind bare-metal, xcode-ci and mlx-ai, with state, queue position and Details and Stop buttons." loading="lazy" decoding="async"></picture><figcaption>Web console. Demo data from a local control plane with one registered Mac.</figcaption></figure></div></section>
+<section class="feature flip" id="maintenance" aria-labelledby="h-maintenance"><div class="grid"><div class="copy"><p class="eyebrow">Maintenance</p><h3 id="h-maintenance">Maintenance without surprises.</h3><p>Reserve Macs for a time window, or take them out of placement for scheduled maintenance. Node actions cover cleanup, simulator pruning, capability refresh, agent update and a guarded reboot.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/maintenance-dark-1200.webp 1200w, assets/img/maintenance-dark-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/maintenance-light-1200.webp" srcset="assets/img/maintenance-light-1200.webp 1200w, assets/img/maintenance-light-1800.webp 1800w" sizes="(min-width:960px) 62vw, 100vw" width="2880" height="1800" alt="Elvora console, Maintenance: a scheduled window for one Mac with its reason, start and end, above the node actions panel." loading="lazy" decoding="async"></picture><figcaption>Web console. Demo data from a local control plane with one registered Mac.</figcaption></figure></div></section>
+</div>
+
+<section class="more" aria-labelledby="more-h">
+  <h2 id="more-h">And the rest of the toolbox.</h2>
+  <div class="cards"><div class="card"><h3>Four kinds of work</h3><p><code>bare-metal</code>, <code>xcode-ci</code>, <code>mlx-ai</code> and <code>macos-vm</code>, with runtime deadlines, bounded output capture, native exit codes and cancellation that stops the actual child process.</p></div><div class="card"><h3>FluxVM for macOS VMs</h3><p>The <code>macos-vm</code> kind uses a pluggable FluxVM or Virtualization.framework adapter. The agent download includes the FluxVM runner, which expects FluxVM 0.4.18 or later.</p></div><div class="card"><h3>Built to operate</h3><p><code>/healthz</code>, <code>/readyz</code>, Prometheus-compatible <code>/metrics</code>, a Docker image, a launchd agent example, and <code>elvoractl doctor</code> to check local and server health.</p></div><div class="card"><h3>A menu-bar app</h3><p>Drag Elvora to Applications, or <code>brew install --cask zyvorai/tap/elvora</code>. It shows control-plane status from <code>ELVORA_SERVER</code> and <code>ELVORA_API_TOKEN</code>.</p></div></div>
+</section>
+
+<section class="privacy" aria-labelledby="privacy-h">
+  <h2 id="privacy-h">Security and control.</h2>
+  <div class="cards"><div class="card"><h3>Signed assignments</h3><p>HMAC-SHA256 signatures with expiry, node binding and a nonce. Single-claim and expiring.</p></div><div class="card"><h3>Separate credentials</h3><p>Agent and operator credentials are distinct, with optional viewer and admin RBAC tokens.</p></div><div class="card"><h3>Audit trail</h3><p>Event records carry the actor, and responses carry security headers.</p></div></div>
+</section>
+
+<section class="specs" id="specs" aria-labelledby="specs-h">
+  <h2 id="specs-h">Specs and requirements.</h2>
+  <dl class="specs-grid"><div class="spec"><dt>Mac app requires</dt><dd>macOS 14 or later</dd></div><div class="spec"><dt>Chip</dt><dd>Apple silicon<small>The agent and menu-bar app are for Apple silicon Macs.</small></dd></div><div class="spec"><dt>Build</dt><dd>Signed and notarized<small>Developer ID signed and notarized by Apple.</small></dd></div><div class="spec"><dt>Version</dt><dd>0.4.2<small>The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev.</small></dd></div><div class="spec"><dt>Control plane</dt><dd>Go, standard library only<small>Linux amd64 and arm64 builds are on the Releases page.</small></dd></div><div class="spec"><dt>Licence</dt><dd>Per enrolled Mac, per year<small>Commercial licence. See Licence and pricing.</small></dd></div></dl>
+  <div class="limit" role="note"><h3>One honest limit</h3><p>Elvora is a <b>developer preview</b>: a production-shaped control plane and agent, but <b>not yet a hardened multi-tenant security boundary</b>. Read <a href="https://github.com/zyvorai/elvora/blob/main/SECURITY.md">SECURITY.md</a> before deploying outside a trusted environment.</p></div>
+</section>
+
+<section class="steps" id="start" aria-labelledby="steps-h">
+  <h2 id="steps-h">Get started in three steps.</h2>
+  <ol><li><h3>Download</h3><p>Get <code>Elvora-0.4.2.dmg</code> and its <code>.sha256</code> checksum from the release page.</p></li><li><h3>Verify and install</h3><p>Check the download with <code>shasum -a 256</code>, open the DMG and drag Elvora to Applications. Or <code>brew install --cask zyvorai/tap/elvora</code>.</p></li><li><h3>Point it at your control plane</h3><p>The app reads <code>ELVORA_SERVER</code> and <code>ELVORA_API_TOKEN</code>. For the free 30-day trial key, write to <b>sales@zyvor.dev</b>.</p></li></ol>
+  <div class="sha">
+    <p>Elvora 0.4.2 for Mac · SHA-256</p>
+    <pre><code id="sha">4f564481baf595a5de4696666bc19305d513318359e4e232cee2fdcf8867467a</code></pre>
+    <p>Verify: <code>echo "4f564481baf595a5de4696666bc19305d513318359e4e232cee2fdcf8867467a Elvora-0.4.2.dmg" | shasum -a 256 -c</code></p>
+  </div>
+  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/elvora/releases/download/v0.4.2/Elvora-0.4.2.dmg">Download Elvora-0.4.2.dmg</a><a class="textlink" href="https://github.com/zyvorai/elvora/releases/tag/v0.4.2">Release page</a><a class="textlink" href="https://github.com/zyvorai/elvora/blob/main/docs/INSTALL.md">Install guide</a></p>
+</section>
+
+<section class="pricing" id="pricing" aria-labelledby="pricing-h">
+  <div class="inner">
+  <h2 id="pricing-h" style="text-align:left">Licence and pricing.</h2>
+  <p class="lead">Elvora is <b>not free to use</b>. A commercial licence is <b>INR 19,942 per enrolled Mac per year incl. GST (about US$201 excl. tax outside India)</b>. Start with a free 30-day trial key from sales@zyvor.dev.</p>
+<div class="card buy"><h3>Per enrolled Mac</h3><p>One licence covers production use of one Mac enrolled in an Elvora fleet for twelve months. Licence each Mac you enroll. The control-plane host needs no separate licence if it only runs <code>elvora-server</code> and is not enrolled as a worker.</p><p><b>INR 19,942</b> per enrolled Mac per year incl. GST (about <b>US$201</b> excl. tax outside India)</p><p class="fine">Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev.</p><p class="cta"><a class="btn primary" href="https://zyvor.dev/buy#elvora" rel="noopener">Buy a licence</a><a class="btn ghost" href="mailto:sales@zyvor.dev?subject=Elvora%2030-day%20trial%20key">Start 30-day trial</a></p></div>
+<p class="fine">A licence does not cover redistribution of the binaries as your own product, source code, or macOS itself, which Apple licenses separately. Several Macs or a larger rollout: <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>. <a href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">Licensing in plain words</a>.</p>
+  </div>
+</section>
+
+<section class="faq" id="faq" aria-labelledby="faq-h">
+  <h2 id="faq-h">Questions, answered.</h2>
+  <details><summary>Is there a free trial?</summary><p>Yes: a free 30-day trial key from sales@zyvor.dev. It is a soft trial: nothing is disabled and no data is lost when it ends.</p></details>
+<details><summary>Which macOS versions?</summary><p>The Mac app requires macOS 14 or later, on Apple silicon.</p></details>
+<details><summary>Will macOS warn me when I open Elvora?</summary><p>The download is signed with our Developer ID. Notarized by Apple; macOS shows its standard first-open confirmation for apps downloaded from the internet. Verify the checksum on the release page if you like. See the <a href="https://github.com/zyvorai/elvora/blob/main/docs/INSTALL.md">install guide</a>.</p></details>
+<details><summary>How is it licensed?</summary><p>Per enrolled Mac, per year: INR 19,942 incl. GST in India (about US$201 excl. tax elsewhere). The control-plane host needs no separate licence if it only runs <code>elvora-server</code> and is not enrolled as a worker.</p></details>
+<details><summary>Is it ready for production?</summary><p>It is a developer preview: production-shaped, but not yet a hardened multi-tenant security boundary. Read <a href="https://github.com/zyvorai/elvora/blob/main/SECURITY.md">SECURITY.md</a> before deploying outside a trusted environment.</p></details>
+<details><summary>How do I install the agent and CLI?</summary><p>With Homebrew on Apple silicon: <code>brew install zyvorai/tap/elvora</code>. Tarballs, including Linux builds of the control plane, are on the <a href="https://github.com/zyvorai/elvora/releases">Releases page</a>.</p></details>
+<details><summary>Where is the source code?</summary><p>The Elvora source code is private. This repository publishes the website, documentation and installers only.</p></details>
+</section>
+</main>
+<footer class="footer">
+  <p><strong>Elvora</strong> · The Elvora source code is private.</p>
+  <p class="links"><a href="https://github.com/zyvorai/elvora/blob/main/docs/INSTALL.md">Install guide</a><a href="Elvora-Client-Overview.pdf">Client overview (PDF)</a><a href="https://github.com/zyvorai/elvora/releases">Releases</a><a href="https://github.com/zyvorai/elvora">GitHub</a><a href="https://github.com/zyvorai/elvora/blob/main/LICENSING.md">Licensing</a><a href="https://github.com/zyvorai/elvora/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/elvora/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p>© 2026 Zyvor AI Labs · <a href="https://zyvor.dev">zyvor.dev</a></p>
+</footer>
+</body>
+</html>
