@@ -63,7 +63,7 @@ Elvora is a control plane, an agent, a CLI and a menu-bar app that turn fleets o
 
 ## Trial and licence
 
-- The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev.
+- The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. The trial is soft: nothing is disabled and no data is lost when it ends.
 - **Licence:** ₹19,942 per enrolled Mac per year including GST. Buy at https://zyvor.dev/buy or on the [payment page](https://rzp.io/rzp/sW0fMhui).
 - Plain-language terms: [LICENSING.md](LICENSING.md). Multi-Mac invoices: [sales@zyvor.dev](mailto:sales@zyvor.dev).
 
