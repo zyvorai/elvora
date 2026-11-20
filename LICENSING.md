@@ -6,11 +6,11 @@ Elvora is **not free to use**. Published builds (control plane, agent, CLI, menu
 
 ## Price
 
-- **$199 per enrolled Mac per year** (checkout is in INR: Rs 16,900 plus 18% GST = Rs 19,942; international cards are accepted).
+- **about US$201 per enrolled Mac per year (excluding GST)** (checkout is in INR: Rs 16,900 plus 18% GST = Rs 19,942; international cards are accepted).
 - One licence covers production use of **one Mac** enrolled in an Elvora fleet for twelve months.
 - Licence **each Mac** you enroll. The control-plane host does not need a separate licence if it only runs `elvora-server` and is not enrolled as a worker.
 - Checkout: [Razorpay](https://rzp.io/rzp/sW0fMhui). The invoice is your proof of licence.
-- There is no licence key or in-app unlock yet. Builds are downloaded from [zyvorai/elvora](https://github.com/zyvorai/elvora/releases) or installed with Homebrew (`brew install zyvorai/tap/elvora`).
+- Trial: a free 30-day trial key is available from sales@zyvor.dev; it is a soft trial, so nothing is disabled and no data is lost when it ends. Builds are downloaded from [zyvorai/elvora](https://github.com/zyvorai/elvora/releases) or installed with Homebrew (`brew install zyvorai/tap/elvora`).
 
 ## How to buy
 
