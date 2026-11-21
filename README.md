@@ -64,7 +64,7 @@ Elvora is a control plane, an agent, a CLI and a menu-bar app that turn fleets o
 ## Trial and licence
 
 - The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. No data is lost when it ends; a commercial license is required to keep using it.
-- **Licence:** INR 19,942 per enrolled Mac per year incl. 18% GST in India (about US$201 excl. tax outside India). [Buy](https://zyvor.dev/buy#elvora) or start the free 30-day trial above. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev.
+- **Licence:** INR 19,942 per enrolled Mac per year incl. 18% GST in India (about US$201 excl. tax outside India). [Buy](https://zyvor.dev/buy#elvora) or start the free 30-day trial above. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees). Orders of USD 5,000 or more and quotes are invoiced in USD through Skydo. Custom pricing: contact sales@zyvor.dev.
 - Plain-language terms: [LICENSING.md](LICENSING.md). Multi-Mac invoices: [sales@zyvor.dev](mailto:sales@zyvor.dev).
 
 ## Documentation
