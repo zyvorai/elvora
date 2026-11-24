@@ -17,10 +17,10 @@ Licence: **INR 19,942 per enrolled Mac per year incl. GST in India (about US$201
 ## Mac: tarball or DMG
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zyvorai/elvora/v0.4.1/scripts/install.sh | ELVORA_VERSION=v0.4.1 sh
+curl -fsSL https://raw.githubusercontent.com/zyvorai/elvora/v0.5.0/scripts/install.sh | ELVORA_VERSION=v0.5.0 sh
 ```
 
-Or download [`elvora-darwin-arm64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-darwin-arm64.tar.gz), verify the `.sha256`, then:
+Or download [`elvora-darwin-arm64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.5.0/elvora-darwin-arm64.tar.gz), verify the `.sha256`, then:
 
 ```bash
 tar -xzf elvora-darwin-arm64.tar.gz
@@ -33,16 +33,18 @@ Set `ELVORA_VM_RUNNER=/usr/local/libexec/elvora-fluxvm-runner` on agents that ru
 
 ### Menu-bar app
 
-Download [`Elvora-0.4.2.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.2/Elvora-0.4.2.dmg) (macOS 14 or later), open it, drag **Elvora** to Applications — or `brew install --cask zyvorai/tap/elvora`. It shows control-plane status from `ELVORA_SERVER` / `ELVORA_API_TOKEN`.
+Download [`Elvora-0.5.0.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.5.0/Elvora-0.5.0.dmg) (macOS 14 or later), open it, drag **Elvora** to Applications — or `brew install --cask zyvorai/tap/elvora`. It shows control-plane status from `ELVORA_SERVER` / `ELVORA_API_TOKEN`.
+
+**First start (one Mac, no setup).** Elvora lives in the menu bar and opens no window. Click its icon and choose **Start local Elvora server**. Elvora creates a private data folder (`~/Library/Application Support/Elvora`), starts the control plane on this Mac only, on a random free port that it remembers (port 8080 is often taken, so it is not used), and opens the dashboard already signed in. The same app contains `elvora-server`, `elvora-agent` and `elvoractl`; with a local server running, `elvoractl` and `elvora-agent` find it without any `--server` flag. For a fleet of Macs, run `elvora-server` with your own secrets as described below.
 
 ## Linux: control plane
 
-Download [`elvora-linux-amd64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.4.1/elvora-linux-amd64.tar.gz) or the arm64 build, verify against `SHA256SUMS`, then run `elvora-server` with operator tokens and an agent secret (see the [website quick start](https://zyvorai.github.io/elvora/#quickstart)).
+Download [`elvora-linux-amd64.tar.gz`](https://github.com/zyvorai/elvora/releases/download/v0.5.0/elvora-linux-amd64.tar.gz) or the arm64 build, verify against `SHA256SUMS`, then run `elvora-server` with operator tokens and an agent secret (see the [website quick start](https://zyvorai.github.io/elvora/#quickstart)).
 
 ## Verify
 
 ```bash
-elvoractl --version          # v0.4.1
+elvoractl --version          # v0.5.0
 elvora-fluxvm-runner --version
 spctl -a -vv /Applications/Elvora.app   # Notarized Developer ID
 ```

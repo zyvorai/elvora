@@ -10,9 +10,9 @@ Schedule Xcode CI, MLX, VMs and automation across your enrolled Macs.
 
 <br />
 
-**[Download the 30-day trial](https://github.com/zyvorai/elvora/releases/tag/v0.4.2)** &nbsp;·&nbsp; [Website](https://zyvorai.github.io/elvora/) &nbsp;·&nbsp; [Install guide](docs/INSTALL.md) &nbsp;·&nbsp; [Buy a licence](https://zyvor.dev/buy)
+**[Download the 30-day trial](https://github.com/zyvorai/elvora/releases/tag/v0.5.0)** &nbsp;·&nbsp; [Website](https://zyvorai.github.io/elvora/) &nbsp;·&nbsp; [Install guide](docs/INSTALL.md) &nbsp;·&nbsp; [Buy a licence](https://zyvor.dev/buy)
 
-`Elvora-0.4.2.dmg` · macOS 14 or later · Apple silicon · signed and notarized
+`Elvora-0.5.0.dmg` · macOS 14 or later · Apple silicon · signed and notarized
 
 </div>
 
@@ -22,8 +22,8 @@ Schedule Xcode CI, MLX, VMs and automation across your enrolled Macs.
 
 | | |
 | --- | --- |
-| **Get it** | [Elvora 0.4.2](https://github.com/zyvorai/elvora/releases/tag/v0.4.2): [`Elvora-0.4.2.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.4.2/Elvora-0.4.2.dmg) and its `.sha256` checksum |
-| **SHA-256** | `4f564481baf595a5de4696666bc19305d513318359e4e232cee2fdcf8867467a` |
+| **Get it** | [Elvora 0.5.0](https://github.com/zyvorai/elvora/releases/tag/v0.5.0): [`Elvora-0.5.0.dmg`](https://github.com/zyvorai/elvora/releases/download/v0.5.0/Elvora-0.5.0.dmg) and its `.sha256` checksum |
+| **SHA-256** | `2af816e4da9b4888a1fa3d0b4373c8d8058dadf3abd8b6908bcf3960866f864b` |
 | **Trial key** | The app runs without a key. For a free 30-day trial key, email **sales@zyvor.dev** |
 | **Requirements** | The Mac app needs macOS 14 or later, Apple silicon |
 | **Notarized** | Signed with our Developer ID. Notarized by Apple; macOS shows its standard first-open confirmation for apps downloaded from the internet |
